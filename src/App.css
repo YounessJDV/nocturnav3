@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  @apply w-5/6 mx-auto
+}
+
+.lock-scroll {
+  overflow: hidden;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btnOutline {
+  @apply px-4 py-2 transition-all duration-300;
+  background:linear-gradient(.25turn, #45008B, 30%, #9953F3);
+  border-radius: 10px;
   color: white;
+  font-weight: semibold;
 }
 
-.App-link {
-  color: #61dafb;
+.colorone {
+  color: #45008B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colortwo {
+  color: #9953F3;
+}
+
+.sm-menu {
+  z-index:20;
+  overflow: hidden;
+  position:fixed;
+  top:0;
+  transition: ease-in 0.3s;
+  transform: translateX(-100%);
+}
+
+.menu_visible  {
+  transform: translateX(0%);
+}
+
+.hamburger {
+  opacity: 100;
+  transform: rotate(0deg);
+  transition: 0.2s ease-in-out;
+}
+
+.menu_hamburger_rotate {
+  opacity: 0;
+  transform: rotate(180deg);
+}
+
+
+
+
+
+.faqImgLg {
+  width: 50%;
+  margin-bottom:-20px;
+}
+
+.cta {
+  margin-bottom: -100px;
+  position: relative;
+}
+
+
+.faq-titre {
+  position:relative;
+  margin: auto;
+}
+
+.faq-titre:before {
+  content:'';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: 15px;
+  margin-right: -5%;
+  z-index: -1;
+  background:linear-gradient(.25turn, rgba(255, 255, 255, 0.247) 0%, #9853f342 20%,#45008B);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.offre-titre-after {
+  position:relative;
+  margin: auto;
+}
+
+.offre-titre-after:before {
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 15px;
+  margin-bottom: 4px;
+  margin-left: -5%;
+  z-index: -1;
+  background:linear-gradient(to left, rgba(255, 255, 255, 0.247) 0%, #9853f342 20%,#45008B);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.offre-titre-contact {
+  position:relative;
+  margin: auto;
+}
+
+.offre-titre-contact:before {
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 5px;
+  margin-bottom: -2px;
+  border-radius: 10px;
+  z-index: -1;
+  background-color:purple;
+
 }
