@@ -7,6 +7,13 @@ import { BiPhoneCall } from "react-icons/bi";
 import LogoImg from '../img/navbar/nav_logo.png'
 import phoneIcon from '../img/navbar/phone.png'
 
+function scrollToScrollTest() {
+    const scrolltest = document.getElementById('scrolltest');
+    if (scrolltest) {
+        scrolltest.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+
 const Navbar = () => {
 
     const [menuVisible, setMenuVisible] = useState(false);
@@ -28,9 +35,9 @@ const Navbar = () => {
 
                         {/*My logo*/}
                         <div className="md:w-1/3 logo">
-                            <a onClick={() => {window.location.href="/"}}>
-                                <img className="h-12 dark:invert hover:cursor-pointer	" src={LogoImg} alt="logo"></img>
-                            </a>
+                            <Link to="/" onClick={scrollToScrollTest}>
+                                <img className="h-12 dark:invert hover:cursor-pointer" src={LogoImg} alt="logo"></img>
+                            </Link>
                             
                         </div>
 
@@ -94,7 +101,9 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex justify-center">
-                    <img className="h-12 my-12 invert" src={LogoImg} alt="logo"></img>
+                    <Link to="/" onClick={toggleMenu}>
+                        <img className="h-12 my-12 invert" src={LogoImg} alt="logo"></img>
+                    </Link>
                 </div>
 
             </div>

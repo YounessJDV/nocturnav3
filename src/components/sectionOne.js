@@ -4,7 +4,7 @@ import imgSection_one from '../img/section_one/img_section.png'
 function SectionOne() {
   return (
     <>
-        <div className="container my-16 xl:min-h-[calc(100vh-20vh)] flex flex-col justify-center mx-auto items-center xl:w-3/4 mx-auto bg-white dark:bg-gray-800 poppins">
+        <div className="container overflow-x-hidden my-16 xl:min-h-[calc(100vh-20vh)] flex flex-col justify-center mx-auto items-center xl:w-3/4 mx-auto bg-white dark:bg-gray-800 poppins">
             <div className="">
                 <div className="xl:grid xl:grid-flow-row-dense xl:grid-cols-2 lg:gap-8 lg:items-center">
                     <div className="text-left md:text-left ml-auto1 lg:max-w-2xl" data-aos="fade-right" data-aos-duration="1300">

@@ -23,6 +23,7 @@ import CtaContact from './components/cta_contact'
 import Footer from './components/footer'
 import Realisations from "./components/realisations"
 import Contact from './components/contact';
+import MentionsLegales from './components/mentionsLegales';
 
 function App() {
   
@@ -33,7 +34,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="App">
+      <div className="App" id="scrolltest">
         <Routes>
           <Route
             path="/"
@@ -58,6 +59,16 @@ function App() {
                 <Contact />
                 <CtaContact />
                 <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/mentionsLegales"
+            element={
+              <>
+                <Navbar /> 
+                <MentionsLegales />
+                <Footer/>
               </>
             }
           />

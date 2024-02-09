@@ -1,15 +1,18 @@
+import { Link } from "react-router-dom";
+
+
 export const Offres = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" data-aos="zoom-in" data-aos-duration="1300">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 poppins" data-aos="zoom-in" data-aos-duration="1300">
         <div className="max-w-xl mb-10 mx-auto text-center lg:max-w-2xl md:mb-12">
           <div>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl mx-auto">
-              <span className="offre-titre-after poppins">L'offre de Nocturna</span>
+              <span className="offre-titre-after">L'offre de Nocturna</span>
           </h2>
-          <p className="text-base text-gray-700 md:text-lg poppins">
+          <p className="text-base text-gray-700 md:text-lg">
             Un site web adapté à vos besoins, c’est ce que nous avons de meilleur à offrir chez Nocturna.
-            Choisissez une de nos offre et propulsez votre activité en ligne.
+            Choisissez une de nos offres et propulsez votre activité en ligne.
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md lg:grid-cols-2 mx-auto">
@@ -99,7 +102,7 @@ export const Offres = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">Design visuel Standard</p>
+                    <p className="font-medium text-gray-800">Design visuel <span class="uppercase">Standard</span></p>
                   </li>
                   <li className="flex items-center">
                     <div className="mr-2">
@@ -171,18 +174,18 @@ export const Offres = () => {
                         />
                       </svg>
                     </div>
-                    <p className="font-medium text-gray-800">Livraison entre 2 à 5 jours</p>
+                    <p className="font-medium text-gray-800">Livraison entre <span className="font-bold">2 à 5 jours</span></p>
                   </li>
                 </ul>
               </div>
             </div>
             <div>
-              <a
-                href="/"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-[#45008B] rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
               >
                 DEVIS GRATUIT
-              </a>
+              </Link>
               {/* <p className="text-sm text-gray-600">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium
@@ -353,12 +356,12 @@ export const Offres = () => {
               </div>
             </div>
             <div>
-              <a
-                href="/"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-[#45008B] rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
               >
                 DEVIS GRATUIT
-              </a>
+              </Link>
               {/* <p className="text-sm text-gray-600">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium

@@ -1,6 +1,14 @@
+
+import { Link } from "react-router-dom";
 import heroImg from '../img/hero/hero_img.png'
 import heroImg2 from '../img/hero/hero_img2.png'
 
+function scrollToSection() {
+    const section = document.getElementById('apropos');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
 function Header() {
   return (
@@ -13,7 +21,7 @@ function Header() {
                     <p className="text-justify mt-6 mb-8 text-md md:text-lg sm:mb-6"> En tant qu’entreprise, il est essentiel d’avoir une présence sur le web. Capter de nouveaux prospects, rassurer sa clientèle ou mettre en avant ses services.</p>
                     <p className='text-justify mt-0 mb-8 text-md md:text-lg sm:mb-6'> Chez <span className="font-bold">Nocturna</span> nous avons mis au point la meilleure offre du marché pour votre e-réputation.</p>
                     <div className="flex justify-center sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                        <a rel="noopener noreferrer" href="#" className="btnOutline inter text-center px-8 py-3 text-lg font-bold rounded tracking-wide">Découvrir</a>
+                        <Link rel="noopener noreferrer" to="/" onClick={scrollToSection} className="btnOutline inter text-center px-8 py-3 text-lg font-bold rounded tracking-wide">Découvrir</Link>
                     </div>
                 </div>
                 

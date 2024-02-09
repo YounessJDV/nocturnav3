@@ -7,7 +7,7 @@ import { FaChartLine } from "react-icons/fa";
 function Features() {
     return (
 
-        <div className="sm:container sm:min-h-[calc(100vh-20vh)] flex flex-col justify-center mx-auto items-center p-6 px-6 bg-white dark:bg-gray-800 poppins" data-aos="fade-down" data-aos-duration="1300">
+        <div id="apropos" className="sm:container sm:min-h-[calc(100vh-20vh)] flex flex-col justify-center mx-auto items-center p-6 px-6 bg-white dark:bg-gray-800 poppins" data-aos="fade-down" data-aos-duration="1300">
             <div className="mb-0 md:mb-6 text-center">
                 <h2 className="text-base font-semibold tracking-wide text-[#45008B] uppercase">
                     Découvrez...
