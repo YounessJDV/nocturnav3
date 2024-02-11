@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nocturnav3/static/css/main.41f1bd07.css",
-    "main.js": "/nocturnav3/static/js/main.ca65db89.js",
+    "main.css": "/nocturnav3/static/css/main.8599610a.css",
+    "main.js": "/nocturnav3/static/js/main.29946c4c.js",
     "static/js/592.64ca04e9.chunk.js": "/nocturnav3/static/js/592.64ca04e9.chunk.js",
     "static/media/hero_img.png": "/nocturnav3/static/media/hero_img.b38268d11db84e58984f.png",
     "static/media/img_section.png": "/nocturnav3/static/media/img_section.42b397af64f94228e8a5.png",
@@ -9,12 +9,12 @@
     "static/media/hero_img2.png": "/nocturnav3/static/media/hero_img2.14a36a7373b43a968fe9.png",
     "static/media/phone.png": "/nocturnav3/static/media/phone.857f154082e0459ba66c.png",
     "index.html": "/nocturnav3/index.html",
-    "main.41f1bd07.css.map": "/nocturnav3/static/css/main.41f1bd07.css.map",
-    "main.ca65db89.js.map": "/nocturnav3/static/js/main.ca65db89.js.map",
+    "main.8599610a.css.map": "/nocturnav3/static/css/main.8599610a.css.map",
+    "main.29946c4c.js.map": "/nocturnav3/static/js/main.29946c4c.js.map",
     "592.64ca04e9.chunk.js.map": "/nocturnav3/static/js/592.64ca04e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f1bd07.css",
-    "static/js/main.ca65db89.js"
+    "static/css/main.8599610a.css",
+    "static/js/main.29946c4c.js"
   ]
 }
