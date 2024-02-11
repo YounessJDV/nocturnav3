@@ -43,8 +43,8 @@ const Navbar = () => {
 
                         {/*for larger devices*/}
                         <div className="w-1/3 justify-center lg:flex font-medium items-center gap-3 hidden">
-                            <Link to="/" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4">Création de site web</Link>
-                            <Link to="/contact" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4">Contact</Link>
+                            <Link to="/" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4 transition duration-300 hover:text-black/75">Création de site web</Link>
+                            <Link to="/contact" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4 transition duration-300 hover:text-black/75">Contact</Link>
                             {/* <a href="/" className="block hover:text-gray-400 py-2 px-1 xl:px-4">FAQ</a> */}
                         </div>
                         
