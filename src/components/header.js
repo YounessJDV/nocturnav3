@@ -21,7 +21,7 @@ function Header() {
                     <p className="text-justify mt-6 mb-8 text-md md:text-lg sm:mb-6"> En tant qu’entreprise, il est essentiel d’avoir une présence sur le web. Capter de nouveaux prospects, rassurer sa clientèle ou mettre en avant ses services.</p>
                     <p className='text-justify mt-0 mb-8 text-md md:text-lg sm:mb-6'> Chez <span className="font-bold">Nocturna</span> nous avons mis au point la meilleure offre du marché pour votre e-réputation.</p>
                     <div className="flex justify-center sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                        <Link rel="noopener noreferrer" to="/" onClick={scrollToSection} className="btnOutline inter text-center px-8 py-3 text-lg font-bold rounded tracking-wide 
+                        <Link rel="noopener noreferrer" to="/" onClick={scrollToSection} className="bg-[#45008B] hover:bg-[#45008B]/90 rounded bg-gradient-to-r from-[#45008B] to-[#9953F3] text-white text-center px-7 py-3 text-lg font-medium rounded-md tracking-wide 
                                 transform transition duration-500 
                                 hover:scale-105 
                                 hover:cursor-pointer ">Découvrir</Link>

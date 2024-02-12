@@ -2,11 +2,14 @@ import React from 'react';
 
 function MentionsLegales() {
   return (
-    <div className="w-5/6 mx-auto">
+    
+    <div className="w-5/6 md:w-3/4 mx-auto bg-[#EAEAEA] rounded-3xl px-10 py-3 my-10 shadow-md" data-aos="fade-up" data-aos-duration="800">
+
+
 
         <div className="text-center">
-            <h1 className="text-5xl text-center font-bold mt-10 mb-2 text-gray-600 poppins">Mentions Légales</h1>
-            <p className="mb-20 font-semibold text-lg text-gray-600 poppins">De <span className="text-[#45008B]">Nocturna</span></p>
+            <h1 className="text-3xl sm:text-5xl text-[#45008B] font-bold mt-10 mb-2 poppins">Mentions Légales</h1>
+            <p className="mb-10 sm:mb-20 font-semibold text-lg text-gray-600 poppins">De <span className="text-[#45008B]">Nocturna</span></p>
         </div>
 
         <div className="my-10">

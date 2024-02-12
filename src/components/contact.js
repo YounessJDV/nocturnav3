@@ -1,28 +1,49 @@
-import React, { useRef } from 'react';
+import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
 
 function Contact() {
-  
     const form = useRef();
-    const valeurBtn = "Envoyer"
+    const [valeurBtn, setValeurBtn] = useState("Envoyer");
+    const [btnClass, setBtnClass] = useState("bg-[#45008B] px-8"); // état pour la classe du bouton
+    const [loadingVisible, setLoadingVisible] = useState(false); // État pour la visibilité de l'icône de chargement
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
+
+        // Changer la valeur du bouton en "Envoi en cours..."
+        setValeurBtn("Envoi en cours...");
+        setBtnClass("bg-gray-600 pr-8"); //
+        setLoadingVisible(true); // Afficher l'icône de chargement lors de l'envoi en cours
+        
+
         emailjs
             .sendForm('service_rln8i07', 'template_zw340kj', form.current, {
                 publicKey: 'PTya6qLtu5r0Ar3Hk',
             })
             .then(
                 () => {
-                alert('SUCCES!');
-                console.log('SUCCESS!');
+                    // Après 3 secondes, changer la valeur du bouton en "Envoyé"
+                    setTimeout(() => {
+                        setValeurBtn("Envoyé");
+                        setBtnClass("bg-[#008000] px-8");
+                        setLoadingVisible(false); // Masquer l'icône de chargement après l'envoi réussi
+                        // Après 2 secondes, revenir à la valeur initiale "Envoyer"
+                        setTimeout(() => {
+                            setValeurBtn("Envoyer");
+                            setBtnClass("bg-[#45008B] px-8");
+                            form.current.reset(); // Réinitialiser les champs du formulaire
+                        }, 2000);
+                    }, 2000);
+                    // console.log('SUCCESS!');
                 },
                 (error) => {
-                console.log('FAILED...', error.text);
+                    console.log('FAILED...', error.text);
                 },
             );
     };
+
 
     
   return (
@@ -34,7 +55,7 @@ function Contact() {
                         <span class="offre-titre-contact poppins">Contactez-nous</span>
                     </h1>
                     <p className=" mt-8 mx-auto leading-relaxed text-base sm:text-lg">
-                        Pour obtenir un devis sur votre projet, remplissez le formulaire. Nous vous contacterons par la suite pour répondre à votre demande. 
+                        Pour obtenir un devis sur votre projet ou toute autre information, remplissez le formulaire suivant. Nous vous contacterons par la suite pour répondre à votre demande. 
                     </p>
                 </div>
                 
@@ -160,11 +181,18 @@ function Contact() {
                             </div>
                         </div>
                         <div className="p-2 w-full">
-                            <input type="submit" value={valeurBtn} className="
+                            
+                            <button type="submit" className={`
+                                ${btnClass}
+                                flex justify-center items-center
                                 transform transition duration-500 
-                                hover:scale-105 
-                                hover:cursor-pointer 
-                                btnOutline flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg poppins"></input>
+                                sm:hover:scale-105 
+                                sm:hover:cursor-pointer 
+                                flex mx-auto text-white border-0 py-2 focus:outline-none sm:hover:bg-[#45008B]/90 rounded text-lg poppins`}>
+
+                                {loadingVisible && <AiOutlineLoading3Quarters class="fill-white h-5 w-5 mx-5 animate-spin" />}
+                                {valeurBtn}
+                            </button>
                         </div>
                     </form>
                 </div>

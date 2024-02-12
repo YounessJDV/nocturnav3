@@ -12,21 +12,21 @@ function CtaContact() {
                 
                     <div class="flex flex-col items-center justify-center">
                         <RiTeamFill className="w-12 h-12 md:w-24 md:h-24 fill-white"/>
-                        <p class="mt-2 lg:mt-4 mb-4 text-md md:text-xl font-medium text-white">
+                        <p class="mt-2 lg:mt-4 mb-4 text-center text-md md:text-md lg:text-xl font-medium text-white">
                             Expertise 
                         </p>
                     </div>
 
                     <div class="flex flex-col items-center justify-center">
                         <TfiHeadphoneAlt className="w-12 h-12 md:w-24 md:h-24 fill-white"/>
-                        <p class="mt-2 lg:mt-4 mb-4 text-md md:text-xl font-medium text-white">
+                        <p class="mt-2 lg:mt-4 mb-4 text-center text-md md:text-md lg:text-xl font-medium text-white">
                             Service client réactif
                         </p>
                     </div>
 
                     <div class="flex flex-col items-center justify-center">
                         <IoMdCheckmarkCircleOutline className="w-12 h-12 md:w-24 md:h-24 fill-white"/>
-                        <p class="mt-2 lg:mt-4 mb-4 text-md md:text-xl font-medium text-white">
+                        <p class="mt-2 lg:mt-4 mb-4 text-center text-md md:text-md lg:text-xl font-medium text-white">
                             Satisfaction garantie
                         </p>
                     </div>

@@ -15,7 +15,7 @@ function Cta() {
                 </p>
                 <div className="lg:mt-0 lg:flex-shrink-0">
                     <div className="mt-12 inline-flex rounded-md shadow">
-                        <Link to="/contact" className="py-3 px-7 bg-white hover:bg-slate-200 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-[#45008B] w-full transition ease-in duration-200 text-center text-md md:text-md font-bold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md " >CONTACT</Link>
+                        <Link to="/contact" className="py-3 px-7 bg-white hover:bg-slate-200 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-black w-full transition ease-in duration-200 text-center text-md md:text-md font-bold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-md " >CONTACT</Link>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
 
-        <div className="navbar bg-white dark:bg-black border-b-2 border-gray dark:border-[#45008B]"> 
+        <div className="navbar bg-white dark:bg-black border-b-2 border-gray dark:border-black"> 
 
             <header className="w-5/6 mx-auto py-4">
                 <nav className="y-4 md:px-8 px-4">
@@ -74,7 +74,7 @@ const Navbar = () => {
 
 
 
-            <div className={`lg:hidden flex flex-col sm-menu w-full h-full mx-0 p-3 bg-[#45008B] text-white ${menuVisible ? 'menu_visible' : ''}`}>
+            <div className={`lg:hidden flex flex-col sm-menu w-full h-full mx-0 p-3 bg-black text-white ${menuVisible ? 'menu_visible' : ''}`}>
                 
                 <button onClick={toggleMenu} className=" p-5 text-3xl flex justify-end">
                     <BiX/>
