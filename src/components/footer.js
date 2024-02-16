@@ -43,7 +43,7 @@ function Footer() {
                     <div className="w-full md:w-1/3 sm:text-left">
                         <p className="text-lg font-medium text-white py-2">CONTACTEZ-NOUS</p>
                         <ul className="mt-2 md:mt-6 space-y-4 text-sm">
-                            <li className="text-white"> Mail : <a  className="text-white transition hover:text-white/75" href="mailto:jounidovyouness@gmail.com">nocturna@contact.com </a></li>
+                            <li className="text-white"> Mail : <a  className="text-white transition hover:text-white/75" href="mailto:contact@nocturna-agency.com">contact@nocturna-agency.com</a></li>
                             <li className="text-white">Téléphone : <a className="text-white transition hover:text-white/75" href="tel:+33781905192">07 81 90 51 92</a></li>
                             <li><Link to="/contact" className="text-white transition hover:text-white/75"> Contact </Link></li>
                         </ul>

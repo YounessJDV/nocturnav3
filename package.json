@@ -1,5 +1,5 @@
 {
-  "homepage": "https://younessjdv.github.io/nocturnav3",
+  "homepage": "https://nocturna-agency.com",
   "name": "nocturnav3",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",

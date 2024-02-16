@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { HashRouter as Router, Route, Routes, Switch, Link } from "react-router-dom";
-
 import './App.css';
 
 // AOS ANIMATIONS //
@@ -19,7 +18,6 @@ import SectionOne from './components/sectionOne'
 import Offres from './components/offres'
 import Faq from './components/faq'
 import Cta from './components/cta'
-import CtaContact from './components/cta_contact'
 import Footer from './components/footer'
 import Realisations from "./components/realisations"
 import Contact from './components/contact';
@@ -55,10 +53,7 @@ function App() {
             path="/contact"
             element={
               <>
-                <Navbar />
                 <Contact />
-                <CtaContact />
-                <Footer />
               </>
             }
           />
@@ -66,9 +61,7 @@ function App() {
             path="/mentionsLegales"
             element={
               <>
-                <Navbar /> 
                 <MentionsLegales />
-                <Footer/>
               </>
             }
           />

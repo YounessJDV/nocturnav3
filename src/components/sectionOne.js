@@ -12,7 +12,7 @@ function SectionOne() {
                             Qualité de travail
                         </p>
                         <h4 className="text-3xl mt-2 text-2xl font-extrabold text-gray-900 dark:text-white sm:leading-tight sm:text-5xl">
-                            Design & Developpement par des <span className="bg-gradient-to-r from-black to-[#9953F3] inline-block text-transparent bg-clip-text">Professionnels</span>.
+                            Design & Developpement par des <span className="bg-gradient-to-r from-[#45008B] to-[#9953F3] inline-block text-transparent bg-clip-text">Professionnels</span>.
                         </h4>
                         <p className="text-md md:text-lg my-6 leading-7 text-gray-500 dark:text-gray-300">
                             Une équipe de professionnels dédiés au design et au développement de sites web d'exception. Chaque ligne de code et chaque élément visuel sont méticuleusement créés pour offrir des solutions sur mesure, alliant esthétique et fonctionnalité. Confiez-nous votre vision, et laissez-nous transformer vos idées en une expérience utilisateur inoubliable.

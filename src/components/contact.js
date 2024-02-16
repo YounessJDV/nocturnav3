@@ -1,6 +1,13 @@
 import { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet';
+
 import emailjs from '@emailjs/browser';
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+
+import CtaContact from './cta_contact'
+import Footer from './footer'
+import Navbar from './Navbar'
+
 
 
 function Contact() {
@@ -19,8 +26,8 @@ function Contact() {
         
 
         emailjs
-            .sendForm('service_rln8i07', 'template_zw340kj', form.current, {
-                publicKey: 'PTya6qLtu5r0Ar3Hk',
+            .sendForm('service_npe95yw', 'template_fdj4ktg', form.current, {
+                publicKey: 'EddJzMQuK4b7vD0iJ',
             })
             .then(
                 () => {
@@ -48,11 +55,18 @@ function Contact() {
     
   return (
 
+    <div>
+        <Helmet>
+            <title>Contactez-nous</title>
+            <meta name="description" content="N'hésitez pas à nous contacter pour toute demande d'information ou de devis." />
+        </Helmet>
+        <Navbar />
+
         <section className="text-gray-700 body-font relative" data-aos="fade-up" data-aos-duration="800">
             <div className="container px-0 lg:px-5 pt-24 pb-16 md:py-24 mx-auto">
                 <div className="flex flex-col w-full xl:w-2/3 mx-auto text-center mb-12">
                     <h1 className="font-extrabold text-4xl sm:text-5xl leading-8 tracking-tight text-gray-900 dark:text-white">
-                        <span class="offre-titre-contact poppins">Contactez-nous</span>
+                        <span className="offre-titre-contact poppins">Contactez-nous</span>
                     </h1>
                     <p className=" mt-8 mx-auto leading-relaxed text-base sm:text-lg">
                         Pour obtenir un devis sur votre projet ou toute autre information, remplissez le formulaire suivant. Nous vous contacterons par la suite pour répondre à votre demande. 
@@ -190,7 +204,7 @@ function Contact() {
                                 sm:hover:cursor-pointer 
                                 flex mx-auto text-white border-0 py-2 focus:outline-none sm:hover:bg-[#45008B]/90 rounded text-lg poppins`}>
 
-                                {loadingVisible && <AiOutlineLoading3Quarters class="fill-white h-5 w-5 mx-5 animate-spin" />}
+                                {loadingVisible && <AiOutlineLoading3Quarters className="fill-white h-5 w-5 mx-5 animate-spin" />}
                                 {valeurBtn}
                             </button>
                         </div>
@@ -199,6 +213,11 @@ function Contact() {
 
             </div>
         </section>
+
+        <CtaContact />
+        <Footer />
+    </div>
+
     
     );
   }

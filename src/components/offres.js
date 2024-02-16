@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Offres = () => {
     return (
       <div className="bg-gradient-to-b from-white to-[#EAEAEA]">
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 poppins" data-aos="zoom-in" data-aos-duration="1300">
+        <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 poppins" data-aos="zoom-in" data-aos-duration="1300">
           <div className="max-w-xl mb-10 mx-auto text-center lg:max-w-2xl md:mb-12">
             <p className="text-base font-semibold leading-6 text-[#45008B] uppercase mb-2">
               lancez-vous
@@ -13,8 +13,8 @@ export const Offres = () => {
                 <span className="offre-titre-after">L'offre de Nocturna</span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Un site web adapté à vos besoins, c’est ce que nous avons de meilleur à offrir chez Nocturna.
-              Choisissez une de nos offres et propulsez votre activité en ligne.
+              Un site web adapté à vos besoins, c’est ce que nous avons de mieux à offrir chez <span class="font-bold">Nocturna</span>.
+              Choisissez une de nos offres et propulsez votre présence en ligne.
             </p>
           </div>
           <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-10 lg:max-w-screen-md lg:grid-cols-2 mx-auto">
@@ -38,7 +38,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -64,7 +64,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -88,7 +88,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -104,7 +104,7 @@ export const Offres = () => {
                           />
                         </svg>
                       </div>
-                      <p className="font-medium text-gray-800">Design visuel <span class="uppercase">Standard</span></p>
+                      <p className="font-medium text-gray-800">Design visuel <span className="uppercase">Standard</span></p>
                     </li>
                     <li className="flex items-center">
                       <div className="mr-2">
@@ -112,7 +112,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -136,7 +136,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -160,7 +160,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -214,7 +214,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -240,7 +240,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -264,7 +264,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -288,7 +288,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -312,7 +312,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"
@@ -336,7 +336,7 @@ export const Offres = () => {
                           className="w-4 h-4 text-[#45008B]"
                           viewBox="0 0 24 24"
                           strokeLinecap="round"
-                          strokeLidth="2"
+                          strokeWidth="2"
                         >
                           <polyline
                             fill="none"

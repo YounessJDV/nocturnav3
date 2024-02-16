@@ -75,11 +75,12 @@ const Item = ({ title, children }) => {
                   <li>- Prise en compte de votre demande.</li>
                   <li>- Création et proposition du devis.</li>
                   <li>- Paiement de l'acompte si le devis est validé et signé.</li>
-                  <li>- Prise d'information sur le projet (nom, deisng, logo, etc...)</li>
+                  <li>- Prise d'information sur le projet (nom, logo, thème et couleurs, etc...)</li>
                   <li>- Création et développement du site web</li>
-                  <li>- Première présentation et modifications.</li>
-                  <li>- Deuxième présentation finale.</li>
-                  <li>- Si la présentation finale est validée, mise en ligne et livraison du site web.</li>
+                  <li>- Première présentation.</li>
+                  <li>- Modifications.</li>
+                  <li>- Deuxième présentation <span class="font-semibold">finale</span>.</li>
+                  <li>- Mise en ligne et livraison du site web.</li>
                   <li>- Paiement des 75% restants du devis.</li>
                   <li className="text-xs mt-5">* Nous ne prenons pas en compte le prix du nom de domaine et de l'hébergement dans le devis.</li>
                 </ul>
