@@ -101,7 +101,7 @@ code {
 .faq-titre:before {
   content:'';
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   right: 0;
   width: 60px;
   height: 15px;
@@ -149,4 +149,34 @@ code {
   z-index: -1;
   background-color:purple;
 
+}
+
+.slick-dots {
+  background-color: #45008B; /* Exemple de couleur de fond semi-transparente */
+
+}
+
+.slick-dots li button:before {
+  font-size:15px !important;
+}
+
+
+.custom-arrows {
+  text-align: center;
+  margin-top: 20px; /* Ajuste la marge comme nécessaire */
+}
+
+.custom-arrows button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #fff; /* Couleur du texte des flèches */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:0.3s ease;
+}
+
+.custom-arrows button:hover {
+  transform: scale(1.5);
 }

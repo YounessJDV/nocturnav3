@@ -80,7 +80,7 @@ export const Offres = () => {
                           />
                         </svg>
                       </div>
-                      <p className="font-medium text-gray-800">Pack visuel inclut (logo & flyer)</p>
+                      <p className="font-medium text-gray-800">Pack visuel inclus (logo & flyer)</p>
                     </li>
                     <li className="flex items-center">
                       <div className="mr-2">
@@ -152,7 +152,7 @@ export const Offres = () => {
                           />
                         </svg>
                       </div>
-                      <p className="font-medium text-gray-800">Formulaire de contact inclut</p>
+                      <p className="font-medium text-gray-800">Formulaire de contact inclus</p>
                     </li>
                     <li className="flex items-center">
                       <div className="mr-2">
@@ -256,7 +256,7 @@ export const Offres = () => {
                           />
                         </svg>
                       </div>
-                      <p className="font-medium text-gray-800">Pack visuel inclut (logo & flyer)</p>
+                      <p className="font-medium text-gray-800">Pack visuel inclus (logo & flyer)</p>
                     </li>
                     <li className="flex items-center">
                       <div className="mr-2">
@@ -328,7 +328,7 @@ export const Offres = () => {
                           />
                         </svg>
                       </div>
-                      <p className="font-medium text-gray-800">Formulaire de contact inclut</p>
+                      <p className="font-medium text-gray-800">Formulaire de contact inclus</p>
                     </li>
                     <li className="flex items-center">
                       <div className="mr-2">
