@@ -44,7 +44,7 @@ function Footer() {
                         <p className="text-lg font-medium text-white py-2">CONTACTEZ-NOUS</p>
                         <ul className="mt-2 md:mt-6 space-y-4 text-sm">
                             <li className="text-white"> Mail : <a  className="text-white transition hover:text-white/75" href="mailto:contact@nocturna-agency.com">contact@nocturna-agency.com</a></li>
-                            <li className="text-white">Téléphone : <a className="text-white transition hover:text-white/75" href="tel:+33781905192">07 81 90 51 92</a></li>
+                            {/* <li className="text-white">Téléphone : <a className="text-white transition hover:text-white/75" href="tel:+33781905192">07 81 90 51 92</a></li> */}
                             <li><Link to="/contact" className="text-white transition hover:text-white/75"> Contact </Link></li>
                         </ul>
                     </div>
@@ -53,7 +53,7 @@ function Footer() {
             <div className='w-full md:w-5/6 mx-auto border-t-2 border-gray'></div>
 
             <div className="flex flex-col md:flex-row md:justify-between md:items-center w-full md:w-5/6 mx-auto my-6 px-4 md:px-0 text-white">
-                    <div className="text-center text-sm  my-4 order-last sm:mb-0 sm:order-first sm:text-left">© Copyright nocturna-agency.fr</div>
+                    <div className="text-center text-sm  my-4 order-last sm:mb-0 sm:order-first sm:text-left">© Copyright nocturna-agency.com</div>
                     <Link to="/mentionsLegales"  className="text-center order-first sm:order-last sm:text-right md:text-none text-white transition hover:text-white/75">Mentions Légales</Link>
             </div>
         </footer>
