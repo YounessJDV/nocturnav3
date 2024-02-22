@@ -84,7 +84,7 @@ const Realisations = () => {
   };
 
   return (
-    <div className="my-5 py-5 bg-gradient-to-r from-[#45008B] to-[#63179C] ">
+    <div className="my-5 py-5 bg-gradient-to-r from-[#45008B] to-[#63179C]" data-aos="fade-up" data-aos-duration="1300">
       <div className="max-w-xl mt-5 mb-6 mx-auto text-center lg:max-w-3xl md:mb-6">
             <p className="text-base font-semibold leading-6 text-white uppercase mb-2">
                 CHOISISSEZ VOTRE DESIGN
@@ -92,7 +92,7 @@ const Realisations = () => {
             <h2 className="max-w-lg mb-6 font-bold text-white dark:text-white text-3xl sm:text-4xl mx-auto">
                 <span className="offre-titre-after">Notre PORTFOLIO</span>
             </h2>
-            <p className="text-base font-medium text-white md:text-lg">
+            <p className="poppins text-base text-white md:text-lg">
               Chez Nocturna, nous mettons en avant des designs web à la fois modernes et professionnels, offrant à nos clients une vitrine en ligne qui reflète leur excellence et leur crédibilité.
             </p>
       </div>

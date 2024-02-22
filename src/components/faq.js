@@ -63,7 +63,7 @@ const Item = ({ title, children }) => {
 
             <div className="space-y-4">
               <Item title="Comment me lancer ?">
-                Pour vous lancer dans la création de votre site web, contactez-nous tout simplement via notre formulaire de contact <Link to="/contact" className="font-semibold text-black">ICI</Link>.
+                Pour vous lancer dans la création de votre site web, contactez-nous tout simplement par téléphone au 07 81 90 51 92 ou par mail <Link to="/contact" className="text-black">ici</Link>.
               </Item>
               <Item title="Dois-je vous fournir les éléments pour mon site web ?">
               Nous vous recommandons de fournir les éléments texte et les images pour la création de votre site web afin de garantir une personnalisation optimale et une correspondance précise avec vos besoins et votre identité de marque. Cependant, si vous ne disposez pas de ces éléments, ne vous inquiétez pas ! Notre équipe est là pour vous guider à travers le processus et peut même créer le contenu pour vous, en nous basant sur vos instructions et vos préférences. Notre objectif est de rendre le processus aussi fluide et sans tracas que possible pour vous.
