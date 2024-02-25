@@ -23,7 +23,7 @@ import {
 
 const CardPortfolio = ({ title, description, src }) => {
   return (
-    <Card className="mt-6 w-96 shadow-xl hover:scale-105 duration-200">
+    <Card className="mt-6 w-96 shadow-xl xl:hover:scale-105 duration-200">
       <CardHeader color="blue-gray" className="relative h-96">
         <img
           src={src}
@@ -60,6 +60,7 @@ const Realisations = () => {
   };
 
   const settings = {
+    arrows:false,
     dots: false,
     infinite: true,
     speed: 200,
@@ -67,7 +68,7 @@ const Realisations = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -90,9 +91,9 @@ const Realisations = () => {
                 CHOISISSEZ VOTRE DESIGN
             </p>
             <h2 className="max-w-lg mb-6 font-bold text-white dark:text-white text-3xl sm:text-4xl mx-auto">
-                <span className="offre-titre-after">Notre PORTFOLIO</span>
+                Notre PORTFOLIO
             </h2>
-            <p className="poppins text-base text-white md:text-lg">
+            <p className="poppins text-base text-white md:text-lg px-2">
               Chez Nocturna, nous mettons en avant des designs web à la fois modernes et professionnels, offrant à nos clients une vitrine en ligne qui reflète leur excellence et leur crédibilité.
             </p>
       </div>
