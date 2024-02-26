@@ -64,7 +64,7 @@ const Realisations = () => {
     dots: false,
     infinite: true,
     speed: 200,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
